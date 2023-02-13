@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aug" />
+        <module name="mubench" />
+        <module name="src2egroum2aug" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aug" target="1.8" />
+      <module name="grouminer" target="1.8" />
+      <module name="mubench" target="1.8" />
+      <module name="mudetect" target="1.5" />
+      <module name="src2egroum2aug" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
